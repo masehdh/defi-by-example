@@ -64,6 +64,7 @@ env $(cat .env) npx truffle test --network mainnet_fork test/test-dydx-solo-marg
 
 ### Test (Windows users)
 
+```shell
 Update the env variables in the env.cmd file and run the following:
 .\env.cmd
 
