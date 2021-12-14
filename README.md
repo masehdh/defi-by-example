@@ -65,15 +65,15 @@ env $(cat .env) npx truffle test --network mainnet_fork test/test-dydx-solo-marg
 ### Test (Windows users)
 
 ```shell
-Update the env variables in the env.cmd file and run the following:
+# Update the env variables in the env.cmd file and run the following:
 .\env.cmd
 
 
 # using infura.io
-Make sure not to include the "\" when entering the command in cmd. For example, put the following in one line: 
+# Make sure not to include the "\" when entering the command in cmd. For example, put the following in one line: 
 npx ganache-cli --fork https://mainnet.infura.io/v3/%WEB3_INFURA_PROJECT_ID% --unlock %DAI_WHALE% --networkId 999
 
-Unlock other env variables as necessary: 
+# Unlock other env variables as necessary: 
 
 npx ganache-cli --fork https://mainnet.infura.io/v3/%WEB3_INFURA_PROJECT_ID% \
 --unlock %WETH_WHALE% \
